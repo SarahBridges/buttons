@@ -1,4 +1,6 @@
 
 var list = ["dog", "cat", "parrot", "koala", "dolphin", "owl", "seahorse"];
 
-list.forEach(function(d){document.write(d+", ")});
+document.write("<ul>");
+list.forEach(function(d){document.write("<li>"+d+"</li>")});
+document.write("</ul>");
