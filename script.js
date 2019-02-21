@@ -1,8 +1,4 @@
 
 var list = ["dog", "cat", "parrot", "koala", "dolphin", "owl", "seahorse"];
 
-
-var getLength = function(list)
-{
-  
-}
+list.forEach(function(d){document.write(d)});
